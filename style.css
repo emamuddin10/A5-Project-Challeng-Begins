@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: "Azeret Mono", monospace;
+}
+/* header{
+    border: 1px solid blue;
+    padding:200px;
+} */
+
+/* shared style */
+h2{
+    color: gray;
+}
+.btn{
+    padding: 15px 20px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    /* background-color: aquamarine; */
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 100px;
+}
+
+/* banner part  */
+
+.banner{
+    background-image: url('./assets/Hero-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0px;
+}
+.hero-btn{
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    background-color: black;
+}
+.hero-content{
+    width: 600px;
+    text-align: center;
+}
+
+/* main section  */
+
+main{
+    margin: 200px;
+    /* text-align: center; */
+}
+
+/* why development section */
+.why-box{
+    display: flex;
+    justify-content: space-between;
+    background-color: aliceblue;
+    padding: 30px;
+    border-radius: 5px;
+    margin: 50px 0px;
+}
+.btn-box{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.why-content{
+    width: 550px;
+}
