@@ -106,3 +106,31 @@ main{
 .card-3{
     background-color: rgba(255, 223, 0, 0.05);;
 }
+/* footer */
+footer{
+    background-image: url("./assets/handshake.jpg"), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.1));
+    background-blend-mode: overlay;
+    /* background: url('./assets/handshake.jpg') rgba(255, 0, 150, 0.3); */
+    background-size: cover;
+    /* background-blend-mode: multiply; */
+    background-repeat: no-repeat;
+    padding: 50px;
+    text-align: center;
+}
+.footer-title{
+    color: white;
+    font-size: 28px;
+}
+.footer-description{
+    color: white;
+    width: 700px;
+    margin: 20px auto;
+}
+.input-text,.input-submit{
+  padding: 15px 20px;
+  border: none;
+  border-radius: 5px;
+}
+.input-submit{
+ 
+}
