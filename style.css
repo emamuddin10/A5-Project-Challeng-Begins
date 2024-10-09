@@ -12,6 +12,9 @@
 h2{
     color: gray;
 }
+.all-top-spacing{
+    margin: 100px 0px;
+}
 .btn{
     padding: 15px 20px;
     border-radius: 5px;
@@ -50,7 +53,7 @@ nav{
 /* main section  */
 
 main{
-    margin: 200px;
+    margin: 100px 200px;
     /* text-align: center; */
 }
 
@@ -106,22 +109,24 @@ main{
 .card-3{
     background-color: rgba(255, 223, 0, 0.05);;
 }
-/* footer */
-footer{
+/* support */
+.support{
     background-image: url("./assets/handshake.jpg"), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.1));
     background-blend-mode: overlay;
     /* background: url('./assets/handshake.jpg') rgba(255, 0, 150, 0.3); */
-    background-size: cover;
     /* background-blend-mode: multiply; */
+    background-size: cover;
     background-repeat: no-repeat;
     padding: 50px;
     text-align: center;
+    margin: 100px 0px;
+    border-radius: 10px;
 }
-.footer-title{
+.support-title{
     color: white;
     font-size: 28px;
 }
-.footer-description{
+.support-description{
     color: white;
     width: 700px;
     margin: 20px auto;
@@ -131,6 +136,16 @@ footer{
   border: none;
   border-radius: 5px;
 }
-.input-submit{
- 
+
+/* footer */
+footer{
+    
+    background-color: aliceblue;
+    padding: 30px 0px;
+}
+.foot-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px 0px 200px;
+
 }
