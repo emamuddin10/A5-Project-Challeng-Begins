@@ -3,10 +3,9 @@
 *{
     font-family: "Azeret Mono", monospace;
 }
-/* header{
-    border: 1px solid blue;
-    padding:200px;
-} */
+html{
+    scroll-behavior: smooth;
+}
 
 /* shared style */
 h2{
